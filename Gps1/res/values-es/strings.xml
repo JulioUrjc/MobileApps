@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	
+    <string name="app_name">GPS Info</string> 
+	<!-- VARIABLES PRO -->
+	 <string name="view01">Variables</string> 
+	 <string name="view_gps01">Datos GPS</string> 
+	 <string name="view_gps02">Direccion desde GPS</string> 
+	 <string name="sat">Satelites:</string> 
+	 <string name="alt">Altitud:</string> 
+	 <string name="prec">Precision:</string> 
+	 <string name="vel">Velocidad:</string> 
+	 <string name="wtime">Tiempo:</string>
+	 <string name="wmetros">Metros:</string> 
+	 <string name="direccion">Direccion:</string> 
+	 <string name="localidad">Localidad:</string> 	
+	 <string name="provincia">Provincia:</string> 
+	 <string name="pais">Pais:</string> 
+	 <string name="cp">CP:</string>
+</resources>

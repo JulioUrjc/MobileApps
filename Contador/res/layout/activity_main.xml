@@ -1,0 +1,40 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/b_decrementar"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="262dp"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/b_incrementar"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="261dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/b_reset"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_x="118dp"
+        android:layout_y="335dp"
+        android:text="reset" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="102dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</AbsoluteLayout>

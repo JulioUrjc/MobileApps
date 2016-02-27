@@ -1,0 +1,72 @@
+<LinearLayout 
+    android:orientation="vertical" 
+    android:keepScreenOn="true" 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView 
+        android:orientation="vertical" 
+        android:layout_height="0dp" 
+        android:layout_width="fill_parent" 
+        android:layout_weight="1"> 
+        
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent"> 
+            
+            <TextView 
+                android:layout_height="wrap_content" 
+                android:layout_width="fill_parent" 
+                android:textStyle="bold" 
+                android:textSize="16dp" 
+                android:textColor="#f93446" 
+                android:text="@string/view_gps01" 
+                android:gravity="left" 
+                android:layout_marginTop="10dp" 
+                android:layout_marginRight="10dp" 
+                android:layout_marginLeft="10dp" 
+                android:layout_marginBottom="0dp"/> 
+                
+            <TextView 
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent" 
+                android:textSize="14dp" 
+                android:text="5/10" 
+                android:gravity="left" 
+                android:layout_marginTop="5dp" 
+                android:layout_marginRight="10dp" 
+                android:layout_marginLeft="10dp" 
+                android:layout_marginBottom="0dp" 
+                android:lineSpacingExtra="5dp" 
+                android:id="@+id/nsatelites"/> 
+			
+			<TextView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="fill_parent" 
+			    android:textStyle="bold" 
+			    android:textSize="16dp" 
+			    android:textColor="#f93446" 
+			    android:text="@string/view_gps02" 
+			    android:gravity="left" 
+			    android:layout_marginTop="10dp" 
+			    android:layout_marginRight="10dp" 
+			    android:layout_marginLeft="10dp" 
+			    android:layout_marginBottom="0dp"/> 
+			    
+			<TextView 
+			    android:layout_height="wrap_content" 
+			    android:layout_width="fill_parent" 
+			    android:textSize="14dp" 
+			    android:text="medias y valor recomendado" 
+			    android:gravity="left" 
+			    android:layout_marginTop="5dp" 
+			    android:layout_marginRight="10dp" 
+			    android:layout_marginLeft="10dp" 
+			    android:layout_marginBottom="5dp" 
+			    android:lineSpacingExtra="5dp" 
+			    android:id="@+id/pos_info"/> 
+		</LinearLayout> 
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    android:orientation="vertical" 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <LinearLayout 
+        android:orientation="horizontal" 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_vertical"> 
+        
+        <ImageButton 
+            android:layout_height="50dp" 
+            android:layout_width="80dp" 
+            android:src="@drawable/atras" 
+            android:scaleType="fitXY" 
+            android:onClick="back" 
+            android:background="@android:color/transparent"/> 
+            
+        <TextView 
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent" 
+            android:textSize="20dp" 
+            android:text="Calculadora" 
+            android:layout_marginLeft="5dp"/> 
+            
+     </LinearLayout> 
+     
+     <LinearLayout 
+         android:orientation="horizontal" 
+         android:layout_height="wrap_content" 
+         android:layout_width="fill_parent" 
+         android:layout_marginTop="25dp"> 
+         
+         <TextView 
+             android:layout_height="wrap_content" 
+             android:layout_width="fill_parent" 
+             android:text="Unit" 
+             android:layout_weight="1"/> 
+             
+         <TextView 
+             android:layout_height="wrap_content"
+             android:layout_width="fill_parent" 
+             android:text="Zero" 
+             android:layout_weight="1"/> 
+             
+          <TextView 
+              android:layout_height="wrap_content" 
+              android:layout_width="fill_parent" 
+              android:text="Span" 
+              android:layout_weight="1"/> 
+       </LinearLayout> 
+       
+       <LinearLayout 
+           android:orientation="horizontal" 
+           android:layout_height="wrap_content" 
+           android:layout_width="fill_parent"> 
+           
+           <Spinner 
+               android:layout_height="wrap_content" 
+               android:layout_width="fill_parent" 
+               android:layout_weight="1" 
+               android:prompt="@string/unit_pront" 
+               android:id="@+id/spnUnit"/> 
+               
+           <EditText 
+               android:layout_height="wrap_content" 
+               android:layout_width="fill_parent" 
+               android:layout_weight="1" 
+               android:id="@+id/zero" 
+               android:inputType="numberSigned"/> 
+               
+           <EditText 
+               android:layout_height="wrap_content" 
+               android:layout_width="fill_parent" 
+               android:layout_weight="1" 
+               android:id="@+id/span" 
+               android:inputType="numberSigned"/> 
+        </LinearLayout> 
+        
+        <Button 
+            android:layout_height="wrap_content" 
+            android:layout_width="150dp" 
+            android:onClick="calc" 
+            android:text="Calcular" 
+            android:layout_marginTop="10dp" 
+            android:layout_gravity="right"/> 
+            
+        <TextView 
+            android:layout_height="wrap_content" 
+            android:layout_width="fill_parent" 
+            android:textSize="20dp" 
+            android:layout_marginLeft="10dp" 
+            android:layout_marginTop="10dp" 
+            android:layout_weight="1" 
+            android:id="@+id/resultado" 
+            android:textColor="#0381a6"/> 
+</LinearLayout>
